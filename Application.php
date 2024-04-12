@@ -1,5 +1,7 @@
 <?php
 
+use Couchbase\View;
+
 class Application
 {
     protected $id;
@@ -27,7 +29,9 @@ class Application
             $method = $controllerInfo[1];
             $className = 'Controllers\\' . $controllerName;
             $controller = new $className();
-            $controller->$method();
+            require __DIR__ . '/Views/layouts/head.php';
+            echo $controller->$method();
+            require __DIR__ . '/Views/layouts/end.php';
         } else {
             // Handle 404
             echo '404 Not Found';

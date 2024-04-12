@@ -7,6 +7,6 @@ class SportSiteParser extends Parser
 {
     public function parse(): string
     {
-        return "SportSiteParser: <html><head><title></title></head><body>...Парсинг спортивных сайтов...";
+        return "SportSite: <html><head><title></title></head><body>...Парсинг спортивных сайтов...";
     }
 }

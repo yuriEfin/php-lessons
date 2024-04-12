@@ -1,7 +1,7 @@
 <?php
 
 if (!function_exists('dump')) {
-    function dump($var, $label = '')
+    function dump($var, string $label = 'dump')
     {
         echo $label . '<br>';
         echo '<pre>';

@@ -14,7 +14,7 @@ class ProductManager implements CrudInterface, FinderEntityInterface
     // use CrudContractTrait, CrudContractTrait;
     public function create()
     {
-        // TODO: Implement create() method.
+        return '';
     }
     
     public function update($id, array $params)

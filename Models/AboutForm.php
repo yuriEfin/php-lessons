@@ -4,7 +4,9 @@ namespace Models;
 
 class AboutForm
 {
-    public function __construct(public string $name)
+    public function validate()
     {
+        // код для валидации свойств модели...
+        return true; // или false если валидация провалилась
     }
 }

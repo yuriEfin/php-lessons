@@ -10,9 +10,7 @@ class AuthForm
     
     public function validate()
     {
-        $this->username
-        $this->password
-            
-            $this->errors[] = 'sadasd';
+        // код для валидации свойств модели...
+        return true; // или false если валидация провалилась
     }
 }

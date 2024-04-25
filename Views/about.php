@@ -10,17 +10,4 @@ use Models\AboutForm;
 ?>
 <h1><?= $title ?></h1>
 
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-<?= $aboutForm->name ?>
-
-<?php
-foreach ($products as $product) {
-    View::render('', ['product' => $product]);
-}
-
+<p>Тут контент страницы с Контактными данными</p>

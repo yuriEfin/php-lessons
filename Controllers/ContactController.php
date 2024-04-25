@@ -2,10 +2,17 @@
 
 namespace Controllers;
 
+use Component\Views\View;
+
 class ContactController
 {
     public function index()
     {
-        require_once 'Views/contact.php';
+        return View::render(
+            'Views/contact.php',
+            [
+                'title' => 'Contact page',
+            ]
+        );
     }
 }

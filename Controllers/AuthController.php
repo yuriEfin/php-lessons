@@ -2,12 +2,19 @@
 
 namespace Controllers;
 
+use Component\Views\View;
+
 class AuthController
 {
     public function index()
     {
         $title = 'Auth page';
         
-        require_once 'Views/auth.php';
+        return View::render(
+            'Views/auth.php',
+            [
+                'title' => $title,
+            ]
+        );
     }
 }

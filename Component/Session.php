@@ -1,5 +1,7 @@
 <?php
 
+namespace Component;
+
 class Session
 {
     public function __construct()

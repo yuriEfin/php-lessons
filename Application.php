@@ -1,7 +1,5 @@
 <?php
 
-use Couchbase\View;
-
 class Application
 {
     protected $id;

@@ -1,5 +1,7 @@
 <?php
 
+namespace Component;
+
 class Request
 {
     public function getHeaders()

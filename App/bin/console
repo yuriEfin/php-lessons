@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+use DI\ContainerBuilder;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Dotenv\Dotenv;
+
+$config = require dirname(__DIR__) . '/config.cli.php';
+
+$dotenv = new Dotenv();
+$dotenv->load(__DIR__ . '/.env');
+
+$containerBuilder = new ContainerBuilder();
+$containerBuilder->addDefinitions($config['definitions']);
+$containerBuilder
+    ->useAutowiring(true)
+    ->useAttributes(true);
+$container = $containerBuilder->build();
+
+$application = new Application();
+foreach ($config['commands'] as $command) {
+    $application->add($container->get($command));
+}
+
+$application->run();

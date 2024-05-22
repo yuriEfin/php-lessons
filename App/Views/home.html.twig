@@ -1,0 +1,15 @@
+{% extends "layouts/main.html.twig" %}
+
+{% block title %}Home{% endblock %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <p>Тут контент страницы {{ title }}</p>
+    <ul>
+        {% for user in users %}
+            <li class="item-user"> {{ user.id }} {{ user.last_name }} {{ user.first_name }} {{ user.created_at }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,19 @@
+body {
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+}
+#header, #content, #footer {
+    margin: 2px auto;
+    max-width: 800px;
+    background: #cccccc;
+    padding: 15px;
+}
+
+.item-user {
+    padding: 5px 10px;
+    border: 1px solid cadetblue;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/php-di/invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/php-di/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/runtime/swoole" />
+      <excludeFolder url="file://$MODULE_DIR$/App/vendor/symfony/runtime" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

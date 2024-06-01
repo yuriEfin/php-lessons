@@ -10,7 +10,7 @@ use Symfony\Component\Dotenv\Dotenv;
 $config = require dirname(__DIR__) . '/config.cli.php';
 
 $dotenv = new Dotenv();
-$dotenv->load(__DIR__ . '/.env');
+$dotenv->load(dirname(__DIR__) . '/.env');
 
 $containerBuilder = new ContainerBuilder();
 $containerBuilder->addDefinitions($config['definitions']);
